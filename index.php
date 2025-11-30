@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>AGROPECUÁRIA EMPÓRIO DA GROTA</title>
+<link rel="stylesheet" href="style.css">
+<script src="scripts.js" defer></script>
+</head>
+<body>
+<header>
+<div class="topbar">Contato: (00) 0000-0000 | Endereço: Rua Exemplo, 123</div>
+<nav class="navbar">
+<h1>AGROPECUÁRIA EMPÓRIO DA GROTA</h1>
+<ul>
+<li><a href="index.php">Home</a></li>
+<li><a href="login.php">Login</a></li>
+<li><a href="carrinho.php">Carrinho</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="capa">
+<h2>Os melhores produtos para seus animais e sua propriedade</h2>
+<p>Enviamos para todo o Brasil com segurança e rapidez!</p>
+</section>
+
+
+<section class="destaques">
+<h2>Destaques</h2>
+<div class="produto">
+<img src="img/prod1.jpg" alt="Produto 1">
+<h3>Ração Premium</h3>
+<button onclick="adicionarCarrinho('Ração Premium')">Comprar</button>
+</div>
+<div class="produto">
+<img src="img/prod2.jpg" alt="Produto 2">
+<h3>Vermífugo</h3>
+<button onclick="adicionarCarrinho('Vermífugo')">Comprar</button>
+</div>
+</section>
+
+
+<section class="promocoes">
+<h2>Promoções</h2>
+<div class="produto">
+<img src="img/prod3.jpg" alt="Promo 1">
+<h3>Suplemento Animal</h3>
+<p><span class="old">R$ 89,90</span> R$ 69,90</p>
+<button onclick="adicionarCarrinho('Suplemento Animal')">Comprar</button>
+</div>
+</section>
+
+
+<footer>
+<p>AGROPECUÁRIA EMPÓRIO DA GROTA - Cuidando do campo e dos animais com dedicação.</p>
+<p>Endereço: Rua Exemplo, 123 - Funcionamento: 08h às 18h</p>
+<a href="quem_somos.php">Quem Somos</a>
+</footer>
+</body>
+</html>
