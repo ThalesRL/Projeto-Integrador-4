@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Login - Agropecuária</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+<h1>Login</h1>
+</header>
+
+
+<section class="formulario">
+<form action="conta.php" method="POST">
+<label>Email:</label>
+<input type="email" name="email" required>
+<label>Senha:</label>
+<input type="password" name="senha" required>
+<button type="submit">Entrar</button>
+</form>
+<a href="senha.php">Esqueci minha senha</a>
+</section>
+</body>
+</html>
